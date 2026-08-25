@@ -7,7 +7,7 @@ For each system, make one deliberate change to an input or configuration, predic
 ### System 1 — validated, routed pipeline
 
 - **Change I made (file + what I changed):**
-  Wrote perturb_us01.py — a standalone script that builds a synthetic extractor response with `exclusions` (a required field) set to `None`, simulating a source policy document that never states its exclusion clauses. Only one response is queued in RecordedClient, so any retry attempt beyond the first call would raise an AssertionError.
+  Wrote `perturb_us01.py` — a standalone script that builds a synthetic extractor response with `exclusions` (a required field) set to `None`, simulating a source policy document that never states its exclusion clauses. Only one response is queued in RecordedClient, so any retry attempt beyond the first call would raise an AssertionError.
 
 - **Command I ran:**
   `.venv/bin/python perturb_us01.py | tee 01-pipeline-perturbation.txt`
@@ -31,7 +31,7 @@ For each system, make one deliberate change to an input or configuration, predic
 ### System 2 — schema-enforced two-pass extraction
 
 - **Change I made (file + what I changed):**
-  Wrote perturb_us02.py, reusing the real line items from discrepancy-run.txt (base=5416.67, bonus=1250.0, commission=2140.0, overtime=385.5, other=450.0 -> calculated=9642.17). Rather than the  document's actual $1250 discrepancy, I edited stated_monthly_total to sit only $1.50 above the true calculated sum, to test the exact tolerance boundary rather than a large obvious error.
+  Wrote `perturb_us02.py`, reusing the real line items from discrepancy-run.txt (base=5416.67, bonus=1250.0, commission=2140.0, overtime=385.5, other=450.0 -> calculated=9642.17). Rather than the  document's actual $1250 discrepancy, I edited stated_monthly_total to sit only $1.50 above the true calculated sum, to test the exact tolerance boundary rather than a large obvious error.
 
 - **Command I ran:**
  `.venv/bin/python perturb_us02.py | tee perturbation.txt `
