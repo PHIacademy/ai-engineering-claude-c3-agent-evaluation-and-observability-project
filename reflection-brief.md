@@ -1,7 +1,7 @@
 # Reflection Brief — Evaluation and Observability Capstone
 
 **Name:** Lo Kai Cheung, Stanley
-**Date:** 2026-08-24
+**Date:** 2026-08-25
 
 ---
 
@@ -104,7 +104,7 @@
 |---|---|
 | Passing test count | 34 passed — 03-supply-chain/tests.txt |
 | Static analysis | mypy: "Success: no issues found in 8 source files" (03-supply-chain/static-checks-mypy.txt); ruff: "All checks passed!" (03-supply-chain/static-checks-ruff.txt) |
-| Briefing file | investigate-run.txt |
+| Briefing file | investigate-run.txt **Note:** The briefing is emitted to stdout, so investigation-run.txt (captured via tee) serves as both the terminal transcript and the generated briefing — no separate briefing. file exists. |
 | Section the conflict landed in | Contested |
 
 **3a. Annotate, don't arbitrate.**
