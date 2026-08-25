@@ -2,7 +2,7 @@
 
 This repository contains the evidence pack, perturbation log, and reflection for the
 **Evaluation and Observability** project, covering three reference systems built across
-the course [`cd15552 Claude AI Engineer Evaluation and Observability`](.).
+the course `cd15552 Claude AI Engineer Evaluation and Observability`.
 
 Each system ships as a separate project in the course repo, one folder per system. Every
 run below was executed from the `solution/` directory of that project's **final** exercise
