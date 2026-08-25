@@ -3,10 +3,6 @@
 **Name:** Lo Kai Cheung, Stanley
 **Date:** 2026-08-24
 
-> Ground every answer in your own run. When a question asks for a number, file name, or line, paste
-> it from your artifacts — a reviewer should be able to find it. Answers that are correct in the
-> abstract but cite nothing do not meet the bar. Keep it short and specific.
-
 ---
 
 ## 0. Environment
