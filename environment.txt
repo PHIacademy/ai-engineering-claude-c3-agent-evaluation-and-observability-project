@@ -14,9 +14,5 @@ source .venv/bin/activate
  
 Notes
 -----
-- No ANTHROPIC_API_KEY was set in any environment; all extraction/pipeline
-  runs used recorded/replay clients (--mode replay), and live-only tests
-  were SKIPPED (see tests.txt for each system).
-- The same three steps above were run independently inside each system's
-  own solution/ directory (01-policy-pipeline, 02-mortgage-extraction,
-  03-supply-chain), each with its own pyproject.toml / .venv.
+- No ANTHROPIC_API_KEY was set in any environment; all extraction/pipeline runs used recorded/replay clients (--mode replay), and live-only tests were SKIPPED (see tests.txt for each system).
+- The same three steps above were run independently inside each system's own solution/ directory (01-policy-pipeline, 02-mortgage-extraction, 03-supply-chain), each with its own pyproject.toml / .venv.
