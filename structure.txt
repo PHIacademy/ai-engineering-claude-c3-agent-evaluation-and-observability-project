@@ -1,0 +1,36 @@
+capstone-submission/
+├── reflection-brief.md            # the completed brief (provided — fill it in)
+├── environment.txt                # `python3 --version` + OS; how you set up the venvs
+├── perturbation-log.md            # one experiment per system (provided — fill it in)
+│
+├── 01-policy-pipeline/
+│   ├── calibration-report.txt     # output of `calibration_report.py` (sliced, provided)
+│   ├── generate_routing_output.py # ?
+│   ├── perturb_us01.py			   # ?
+│   ├── perturbation.txt		   # perturbation output
+│   ├── routing_decisions.json     # ?
+│   ├── routing-decisions-without-API-access.txt		   # ?
+│   ├── routing-output.txt		   # ?
+│   ├── run_report.py			   # run calibration report
+│   ├── static-checks-mypy.txt     # `mypy` output
+│   ├── static-checks-ruff.txt     # `ruff` output
+│   ├── tests.txt                  # full `pytest -v` output (passing count visible)
+│   └── screenshots/               # screeshots for terminal log
+│
+├── 02-mortgage-extraction/
+│   ├── discrepancy-run.txt        # a run where the validator reports a discrepancy
+│   ├── extract-run.txt            # `mortgage-extract <document>` output
+│   ├── normalized-integer.txt     # ?
+│   ├── perturb_us02.py     	   # ?
+│   ├── static-checks-mypy.txt     # `mypy` output
+│   ├── static-checks-ruff.txt     # `ruff` output
+│   ├── tests.txt                  # full `pytest -v` output (passing count visible)
+│   └── screenshots/
+│
+└── 03-supply-chain/
+    ├── investigation-run.txt      # `supply-chain-investigate meridian --offline`
+    ├── timeout-run.txt            # `... --simulate-timeout` (graceful degradation)
+    ├── static-checks-mypy.txt     # `mypy` output
+    ├── static-checks-ruff.txt     # `ruff` output
+    ├── tests.txt                  # full `pytest -v` output (passing count visible)
+    └── screenshots/

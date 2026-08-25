@@ -1,0 +1,5 @@
+result type: RetryFutileEscalation
+field: exclusions
+detected_pattern: exclusions_absent
+category: missing_source
+API calls made: 1

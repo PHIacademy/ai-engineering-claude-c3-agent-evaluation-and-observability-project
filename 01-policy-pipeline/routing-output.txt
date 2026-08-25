@@ -1,0 +1,13 @@
+Wrote routing_decisions.json with 3 records
+auto_approve=0 human_review=2 spot_check=1
+
+policy_id=POL-2025-102 decision=human_review
+  reason=fields_below_threshold=['premium_amount']
+  fields_below_threshold=['premium_amount']
+  reviewer_disagreements=[]
+  integration_failures=[]
+policy_id=POL-2025-103 decision=human_review
+  reason=reviewer_disagreement=['exclusions']
+  fields_below_threshold=[]
+  reviewer_disagreements=['exclusions']
+  integration_failures=[]
